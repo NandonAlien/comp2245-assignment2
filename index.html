@@ -4,58 +4,101 @@
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>COMP2245 Assignment 2</title>
- <link rel="stylesheet" href="styles.css">
+ <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="container">
+<div id = "grid0" class="grid">
+     
  <header>
+<div class = "flex-container"> 
+    <div id="content" class="flexcontent"> 
  <h1>Norris Isaac</h1>
  <p>A Programmer with Expirience in Art with Monthly updates</p>
- </header>
- <main>
- <article>
-    <h2>
-        September 15,2022
-    </h2>
-    <p>
-        <!--Paragraph 1-->
-    </p>
-    <!--insert image-->
-    <p>
-        <!--Paragraph 2-->
-    </p>
- </article>
- <article>
-    <h2>
-        October 15,2022
-    </h2>
-    <!--insert image-->
-    <p>
-        <!--Paragraph 1-->
-    </p>
-    <p>
-        <!--Paragraph 2-->
-    </p>
- </article>
+</div>
+</div> 
+</header>
  
- </main>
- <aside>
-    <h3>About</h3>
+</div>
+ <div id = "grid1" class="grid">
+ <main>
+<article>
+    <h2>
+        September 15,2022 by Norris Isaac
+    </h2>
+    <img src = "archive-g92cb1a7ce_640.jpg", alt = " Shelf of Books Stock image downloaded from Pixel bay : https://pixabay.com/photos/archive-boxes-shelf-folders-1850170/ " style = "float: left; width:20%; height: 20%;">
     <p>
+        This one will be a short one since I'm in the middle of sorting myself out.
+        With University starting I realise I need to change my approach to managing these hobbies. 
+        I've been looking at ways to change my processes and adding tools to making me able to prioritize and organize my work and hobbies.
 
     </p>
+    <p>
+        I've set multiple self meetings during the month to discuss the troubles found with each week and what can be added to fix this immediately or gradually.
+        This is also where I assign and breakdown available tasks and assignments into components to find out how it can be organized during the deadline as well as a book to keep track of new guildlines I impose on myself and new constraints whether consistent or situational.
+        I'll see how this works out and update you on it in the future
+    </p>
+
+ </article>
+
+
+ <article>
+    <h2>
+    October 25,2022 by Norris Isaac
+    </h2>
+    <img src = "screenshot.png", alt = "screenshot taken from CCleste github img source: https://raw.githubusercontent.com/lemon-sherbet/ccleste/master/screenshot.png" style = "float:left; width:20%; height: 20%;">
+    <p>
+        
+        Usually I would have posted this a day earlier, but I had some troubles with preventing work piling up and had to postpone it from yesturday to today. 
+    University work might be difficult but with enough time and thinking it can be completed.
+    Not much has changed besides the weather getting more colder as it reaches the end of 2022 which is fine since that heat wave was a pain.
+    Today I will talk about the usage of physics in engines for my newest game.  The Game I've been developing, Traverser has been going well following the process I came up with last month and I found I can go and do the optional sides of it.
+    Firstly I need make the game switch to a special scene that would be a platforming mini game and since I'm new to platformers I would look at some tutorials. I've notice that there has been a focus on simulating physics concepts such as gravity.
+    This is there where I stumbled down the rabit hole of physics engines.
+    </p>
+    
+    <p>
+        Luckily, I'm using an engine that handles the image vector work but it really make me realise where difficulties in making engines usually arise and the mathematical requirements for making 3D games.
+        I've mainly used a few variables that store the properties needed. Gravity is that first variable with it being similar to acceleration I use for my top down games however it is constantly activated on the real time loop function that keeps updating the character to go down.
+        There is also several thing done like limiting the controls to horizontal instead of both with a jump function that only causes you to jump when you are on the ground.
+        I would go over more of it in my Semi Annual Devlog this November. Things are definitely different since this blog started last November and how it will end up in the future might be something great. 
+    </p>
+ </article>
+
+ </main>
+</div>
+<div id ="grid2" class ="grid">
+ <aside>
+   <div class="about"> <h3>About</h3>
+    <p>
+        This is a blog that is a monthly review for Norris Isaac and those that would like to see his monthly activities he wants to post.
+    </p>
+</div>
     <h3>Social Media</h3>
     <ul>
-
+        <li><a href="">Facebook</a></li>
+        <li><a href="">Youtube</a></li>
+        <li><a href="">Itch</a></li>
     </ul>
+        
+        
     <h3>Archives</h3>
     <ul>
-        
+            <li><a href="">Previous Months and Years</a></li>
+            <li><a href="">Semi Annual Report 1</a></li>
+            <li><a href="">June2022</a></li>
+            <li><a href="">July2022</a></li>
+            <li><a href="">August2022</a></li>
+            <li><a href="">September2022</a></li>
+            <li><a href="">October2022</a></li>
     </ul>
  </aside>
+</div>
+<div id="grid3" class="grid">
  <footer>
- <p>Copyright &copy; 2020, Your Name</p>
+ <p>Copyright &copy; 2020, Norris Isaac</p>
  </footer>
+</div>
 </div>
 </body>
 </html>
